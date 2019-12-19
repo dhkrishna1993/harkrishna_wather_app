@@ -1,0 +1,85 @@
+.App {
+  display:inline;
+  text-align: center;
+  align-content: "center";
+  flex-direction: row;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items:center; */
+  /* justify-content:center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-calendar{
+  background-color:black;
+  min-height:40vh ;
+   align-self:center;
+  justify-content:center;
+  min-width:50vh ;
+  color: blue;
+  font-size:100;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Details{
+  /* display:flex;
+  color:'block';
+  background-color:pink;
+  height: 100vh; Magic here */
+  justify-content: center;
+  align-items: flex-start
+}
+.Details-h3{
+  margin: 20;
+  right: 100px;
+
+}
+.Details-Area {
+   /* background-color:pink; */
+   /* flex-direction:column; */
+   
+   align-content: center;
+   justify-content:space-evenly;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+.Details-header {
+ min-height: 5vh;
+  /* display: flex; */
+  background-color:black;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
